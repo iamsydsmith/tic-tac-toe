@@ -1,6 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-console.log("loaded")
+
+    var $gameCells = $('.cell');
+
+    $($gameCells).one('click', function() {
+        console.log(this.id);
+    })
+
+
 
 });
-
