@@ -18,3 +18,14 @@ body {
 .row {
 box-sizing: border-box;
 }
+
+#newGame {
+  text-align: center;
+}
+
+.invisible {
+    visibility:hidden;
+}
+.visible {
+    visibility:visible;
+}
