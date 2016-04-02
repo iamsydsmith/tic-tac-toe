@@ -1,1 +1,1 @@
-## Tic Tae Toe Project
+## Tic Tac Toe Project
