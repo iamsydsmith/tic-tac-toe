@@ -46,27 +46,35 @@ $(document).ready(function() {
         if (moves[0] === player && moves[1] === player && moves[2] === player) {
             $('#0, #1, #2').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[3] === player && moves[4] === player && moves[5] === player) {
             $('#3, #4, #5').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[6] === player && moves[7] === player && moves[8] === player) {
             $('#6, #7, #8').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[0] === player && moves[3] === player && moves[6] === player) {
             $('#0, #3, #6').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[1] === player && moves[4] === player && moves[7] === player) {
             $('#1, #4, #7').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[2] === player && moves[5] === player && moves[8] === player) {
             $('#2, #5, #8').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[0] === player && moves[4] === player && moves[8] === player) {
             $('#0, #4, #8').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (moves[2] === player && moves[4] === player && moves[6] === player) {
             $('#2, #4, #6').addClass('won');
             alert('Game over! ' + player + ' is the winner!');
+            $($gameCells).off('click');
         } else if (count === 9) {
             alert("It's a tie");
         }
