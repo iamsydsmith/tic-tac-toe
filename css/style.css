@@ -1,31 +1,50 @@
 body {
   font-size: 10px;
+  font-family: 'Chewy', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #FF69B4;
+  font-family: 'Luckiest Guy', cursive, Arial, serif;
+  font-size: 7em;
 }
 
 #gameboard {
-  width: 31.2em;
-  width: 31.2em;
+  /*width: 34.2em;
+  width: 34.2em;*/
+  width: 342px;
+  height: 342px;
   margin: 0 auto;
 }
 
 .cell {
-  border: red solid 1px;
-  width: 10em;
-  height: 10em;
+  border: 5px solid #FF69B4;
+  border-radius: 5px;
+  margin:2px;
+  width: 100px;
+  height: 100px;
   float: left;
+  padding-top:5px;
+  text-align: center;
+  font-size: 900%;
 }
 
 .row {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #newGame {
-  text-align: center;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FF69B4;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 2em;
+  font-size: 200%;
+  color: #FF69B4;
 }
 
-.invisible {
-    visibility:hidden;
-}
-.visible {
-    visibility:visible;
+.won {
+  background-color:#b2ffb2;
 }
