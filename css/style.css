@@ -13,8 +13,8 @@ h1 {
 #gameboard {
   /*width: 34.2em;
   width: 34.2em;*/
-  width: 342px;
-  height: 342px;
+  width: 440px;
+  height: 440px;
   margin: 0 auto;
 }
 
@@ -22,8 +22,8 @@ h1 {
   border: 5px solid #FF69B4;
   border-radius: 5px;
   margin:2px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   float: left;
   padding-top:5px;
   text-align: center;
