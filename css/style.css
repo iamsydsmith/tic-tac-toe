@@ -27,7 +27,7 @@ h1 {
   float: left;
   padding-top:5px;
   text-align: center;
-  font-size: 900%;
+  font-size: 750%;
 }
 
 .row {
@@ -47,4 +47,14 @@ h1 {
 
 .won {
   background-color:#b2ffb2;
+}
+
+#newGame:hover {
+cursor: pointer;
+background-color: #FF69B4;
+color: white;
+}
+
+button:focus {
+  outline:0;
 }

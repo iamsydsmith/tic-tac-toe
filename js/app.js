@@ -25,8 +25,9 @@ $(document).ready(function() {
     startGame();
 
     //resets clicks on board and resets variables.
-    function turnOffBoard() {
-        $($gameCells).off('click');
+    function resetBoard() {
+        $gameCells.removeClass('won');
+        $gameCells.html('');
         moves = ["", "", "", "", "", "", "", "", ""];
         turn = 'X';
         count = 0;
@@ -35,9 +36,7 @@ $(document).ready(function() {
     //New game button, clears board
     $('#newGame').click(function() {
         $(this).on();
-        $gameCells.removeClass('won');
-        $gameCells.html('');
-        turnOffBoard();
+        resetBoard();
         startGame();
     });
 
