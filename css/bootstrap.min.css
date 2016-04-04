@@ -75,7 +75,7 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em;
+    font-size: 7em;
 
 }
 
@@ -2647,6 +2647,7 @@ pre code {
     }
     .col-lg-12 {
         width: 100%
+        margin: 0 auto;
     }
     .col-lg-11 {
         width: 91.66666667%

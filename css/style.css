@@ -1,13 +1,13 @@
 body {
   font-size: 10px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Chewy', cursive !important;;
 }
 
 h1 {
   text-align: center;
-  color: #FF69B4;
-  font-family: 'Luckiest Guy', cursive, Arial, serif;
-  font-size: 7em;
+  color: #FF69B4 !important;;
+  font-family: 'Luckiest Guy', cursive, Arial, serif!important;;
+  font-size: 5em !important;;
 }
 
 #gameboard {
@@ -27,7 +27,7 @@ h1 {
   float: left;
   padding-top:5px;
   text-align: center;
-  font-size: 750%;
+  font-size: 400%;
 }
 
 .row {
@@ -41,7 +41,7 @@ h1 {
   border-radius: 5px;
   background-color: white;
   margin-top: 2em;
-  font-size: 200%;
+  font-size: 150%;
   color: #FF69B4;
 }
 
