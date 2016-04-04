@@ -75,7 +75,7 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 7em;
+    font-size: 2em;
 
 }
 
@@ -1392,7 +1392,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Chewy', cursive, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -1509,10 +1509,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: 'Luckiest Guy', cursive, Arial, serif;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit
+    color: #FF69B4;
 }
 
 .h1 .small,
@@ -1596,7 +1596,7 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 72px
 }
 
 .h2,
