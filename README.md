@@ -1,5 +1,5 @@
-<h1>>Tic Tac Toe Projec</h1>
-<h2>>Overview</h2>>
+<h1>Tic Tac Toe Projec</h1>
+<h2>Overview</h2>>
 
 For project #1, I created a simple game of Tic Tae Toe.
 
@@ -7,7 +7,7 @@ Players alternate placing Xs and Os on the game board until either player has th
 
 http://iamsydsmith.github.io/tic-tac-toe/
 
-<h2>>Technologies Used:</h2>>
+<h2>Technologies Used:</h2>>
 
 <ul>
 <li>Languages - HTML5, CSS3, jQuery</li>
@@ -17,15 +17,15 @@ http://iamsydsmith.github.io/tic-tac-toe/
 </ul>
 
 Trello Board: https://trello.com/b/DAYM9Byr/wdi-project-1-tictaetoe
-<h2>>Wireframe:</h2>>
+<h2>Wireframe:</h2>>
 
-<img src="TicTaeToewireframe.png">
+<img src="https://github.com/iamsydsmith/tic-tac-toe/blob/gh-pages/Tic_Tae_Toe_-_wireframe.png">
 
 <h2>Winning Combination</h2>
 
-<img src="winningcombo.jpg">
+<img src="https://github.com/iamsydsmith/tic-tac-toe/blob/gh-pages/photo.jpg">
 
-<h2>>Future Development</h2>
+<h2>Future Development</h2>
 
 <ul>
 <li>Make it responsive</li>
