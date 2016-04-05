@@ -29,7 +29,7 @@ $(document).ready(function() {
     scoreBoard();
     startGame();
 
-    //scoreboard
+    //scoreboard function
     function scoreBoard() {
         $('.playerX').html(xWins);
         $('.playerO').html(oWins);
@@ -56,7 +56,7 @@ $(document).ready(function() {
     // checks to see if there is a possibility of a winner
     function checkWinner(player) {
 
-        //score
+        //score keeper
         function score() {
             if (winner === 'X') {
                 xWins++;
