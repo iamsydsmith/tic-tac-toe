@@ -10,7 +10,7 @@ http://iamsydsmith.github.io/tic-tac-toe/
 <h2>Technologies Used:</h2>
 
 <ul>
-<li>Languages - HTML5, CSS3, jQuery</li>
+<li>Languages - HTML5, CSS3, Javascript, jQuery</li>
 <li>Design - MockingBird, Google Fonts</li>
 <li>Project Planning & User Stories - <a href="https://trello.com/b/DAYM9Byr/wdi-project-1-tictaetoe" target="_blank">Trello</a></li>
 <li>Sublime Text 3</li>
