@@ -1,58 +1,99 @@
-body {
-  font-size: 10px;
-  font-family: 'Chewy', cursive;
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    #gameboard {
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+    }
+    .cell {
+        border: 5px solid #FF69B4;
+        border-radius: 5px;
+        margin: 2px;
+        width: 25px;
+        height: 25px;
+        float: left;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 600%;
+    }
 }
 
-h1 {
-  text-align: center;
-  color: #FF69B4;
-  font-family: 'Luckiest Guy', cursive, Arial, serif;
-  font-size: 4em;
+body {
+    font-size: 10px;
+    font-family: 'Chewy', cursive;
+    text-align: center;
 }
 
 #gameboard {
-  width: 440px;
-  height: 440px;
-  margin: 0 auto;
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
 }
 
 .cell {
-  border: 5px solid #FF69B4;
-  border-radius: 5px;
-  margin:2px;
-  width: 150px;
-  height: 150px;
-  float: left;
-  padding-top:5px;
-  text-align: center;
-  font-size: 600%;
+    border: 5px solid #FF69B4;
+    border-radius: 5px;
+    margin: 2px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 600%;
+}
+
+h1 {
+    text-align: center;
+    color: #FF69B4;
+    font-family: 'Luckiest Guy', cursive, Arial, serif;
+    font-size: 4em;
+}
+
+#gameboard {
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+}
+
+.cell {
+    border: 5px solid #FF69B4;
+    border-radius: 5px;
+    margin: 2px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 600%;
+    color: #b2ffb2;
 }
 
 .row {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #newGame {
-  width: 150px;
-  height: 50px;
-  border: 2px solid #FF69B4;
-  border-radius: 5px;
-  background-color: white;
-  margin-top: 2em;
-  font-size: 150%;
-  color: #FF69B4;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 2em;
+    font-size: 150%;
+    color: #FF69B4;
+    font-family: Arial
 }
 
 .won {
-  background-color:#b2ffb2;
+    background-color: #b2ffb2;
+    color: #FF69B4;
 }
 
 #newGame:hover {
-cursor: pointer;
-background-color: #FF69B4;
-color: white;
+    cursor: pointer;
+    background-color: #FF69B4;
+    color: white;
 }
 
 button:focus {
-  outline:0;
+    outline: 0;
 }
