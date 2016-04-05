@@ -11,34 +11,46 @@
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <h1>Tic Tae Toe</h1>
+    <div id="scoreboard">
+        <div class="score">
+            <p>Player X</p>
+            <div class="playerX"></div>
+        </div>
+        <div class="score">
+            <p>Player O</p>
+            <div class="playerO"></div>
+        </div>
+        <div class="score">
+            <p>Tie Games</p>
+            <div class="tie"></div>
+        </div>
+    </div>
 
-    Player 'X':<p class="playerX"></p>
-    Player 'O':<p class="playerO"></p>
-    Tie: <p class="Tie"></p>
-        <section id="gameboard">
-            <section class="row">
-                <div id="0" class="cell"></div>
-                <div id="1" class="cell"></div>
-                <div id="2" class="cell"></div>
-            </section>
-            <section class="row">
-                <div id="3" class="cell"></div>
-                <div id="4" class="cell"></div>
-                <div id="5" class="cell"></div>
-            </section>
-            <section class="row">
-                <div id="6" class="cell"></div>
-                <div id="7" class="cell"></div>
-                <div id="8" class="cell"></div>
-            </section>
-            <div style="text-align:center;">
-                <button id="newGame">New Game</button>
-            </div>
+    <section id="gameboard">
+        <section class="row">
+            <div id="0" class="cell"></div>
+            <div id="1" class="cell"></div>
+            <div id="2" class="cell"></div>
         </section>
+        <section class="row">
+            <div id="3" class="cell"></div>
+            <div id="4" class="cell"></div>
+            <div id="5" class="cell"></div>
+        </section>
+        <section class="row">
+            <div id="6" class="cell"></div>
+            <div id="7" class="cell"></div>
+            <div id="8" class="cell"></div>
+        </section>
+        <div style="text-align:center;">
+            <button id="newGame">New Game</button>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,12 +1,53 @@
 body {
     font-size: 10px;
-    font-family: 'Chewy', cursive;
+    font-family: Arial;
     text-align: center;
 }
 
-#gameboard {
+h1 {
+    text-align: center;
+    color: #FF69B4;
+    font-family: 'Luckiest Guy', cursive, Arial, serif;
+    font-size: 6em;
+    margin-bottom: -5px;
+}
+
+#scoreboard{
     width: 500px;
-    height: 500px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.score {
+  position: relative;
+  display: inline-block;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 1px;
+  font-size: 12px;
+  font-family: Open Sans, Arial, serif;
+  color: #FF69B4;
+}
+
+.playerX, .playerO, .tie {
+    border: 5px solid #b2ffb2;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    font-size: 400%;
+    color: #b2ffb2;
+    background-color: #FF69B4;
+}
+
+#gameboard {
+    width: 350px;
+    height: 350px;
     margin: 0 auto;
 }
 
@@ -14,20 +55,14 @@ body {
     border: 5px solid #FF69B4;
     border-radius: 5px;
     margin: 2px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     float: left;
     padding-top: 5px;
     text-align: center;
-    font-size: 1000%;
+    font-family: 'Chewy', cursive;
+    font-size: 800%;
     color: #b2ffb2;
-}
-
-h1 {
-    text-align: center;
-    color: #FF69B4;
-    font-family: 'Luckiest Guy', cursive, Arial, serif;
-    font-size: 4em;
 }
 
 .row {
@@ -35,15 +70,15 @@ h1 {
 }
 
 #newGame {
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 40px;
     border: 2px solid #FF69B4;
     border-radius: 5px;
     background-color: white;
-    margin-top: 2em;
+    margin-top: 10px;
     font-size: 150%;
     color: #FF69B4;
-    font-family: Arial
+    font-family: Open Sans;
 }
 
 .won {

@@ -33,7 +33,7 @@ $(document).ready(function() {
     function scoreBoard() {
         $('.playerX').html(xWins);
         $('.playerO').html(oWins);
-        $('.Tie').html(tie);
+        $('.tie').html(tie);
     }
 
     //resets clicks on board and resets variables.
