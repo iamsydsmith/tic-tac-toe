@@ -29,7 +29,7 @@ $(document).ready(function() {
     scoreBoard();
     startGame();
 
-          //scoreboard
+    //scoreboard
     function scoreBoard() {
         $('.playerX').html(xWins);
         $('.playerO').html(oWins);
@@ -56,16 +56,16 @@ $(document).ready(function() {
     // checks to see if there is a possibility of a winner
     function checkWinner(player) {
 
-            //score
-    function score (){
-        if(winner === 'X'){
-            xWins++;
-        } else if (winner === 'O'){
-            oWins++;
-        } else {
-            tie++;
+        //score
+        function score() {
+            if (winner === 'X') {
+                xWins++;
+            } else if (winner === 'O') {
+                oWins++;
+            } else {
+                tie++;
+            }
         }
-    }
 
         if (moves[0] === player && moves[1] === player && moves[2] === player) {
             $('#0, #1, #2').addClass('won');
