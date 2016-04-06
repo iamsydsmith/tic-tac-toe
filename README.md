@@ -7,7 +7,7 @@ Players alternate placing Xs and Os on the game board until either player has th
 
 http://iamsydsmith.github.io/tic-tac-toe/
 
-<h2>Technologies Used:</h2>
+<h2>Technologies Used</h2>
 
 <ul>
   <li>Languages - HTML5, CSS3, Javascript, jQuery</li>
@@ -16,7 +16,7 @@ http://iamsydsmith.github.io/tic-tac-toe/
   <li>Sublime Text 3</li>
 </ul>
 
-<h2>Features:</h2>
+<h2>Features</h2>
 <ul>
   <li>Scoreboard</li>
   <li>New Game Button</li>
@@ -24,7 +24,7 @@ http://iamsydsmith.github.io/tic-tac-toe/
   <li>Highlights winning squares</li>
 </ul>
 
-<h2>Wireframe:</h2>
+<h2>Wireframe</h2>
 
 <img src="https://github.com/iamsydsmith/tic-tac-toe/blob/gh-pages/img/Tic_Tae_Toe_-_wireframe.png">
 
