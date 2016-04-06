@@ -73,10 +73,10 @@ p {
 
 .buttons {
     margin: 0 auto;
-
 }
 
-#newGame, #resetScore{
+#newGame,
+#resetScore {
     width: 140px;
     height: 40px;
     border: 2px solid #FF69B4;
@@ -90,12 +90,8 @@ p {
     display: inline-block;
 }
 
-.won {
-    background-color: #b2ffb2;
-    color: #FF69B4;
-}
-
-#newGame:hover, #resetScore:hover {
+#newGame:hover,
+#resetScore:hover {
     cursor: pointer;
     background-color: #FF69B4;
     color: white;
@@ -103,4 +99,9 @@ p {
 
 button:focus {
     outline: 0;
+}
+
+.won {
+    background-color: #b2ffb2;
+    color: #FF69B4;
 }

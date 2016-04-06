@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+    //Variables needed for the game to function
     var $gameCells = $('.cell');
     var moves = ["", "", "", "", "", "", "", "", ""]
     var count = 0;
@@ -10,7 +10,7 @@ $(document).ready(function() {
     var oWins = 0;
     var tie = 0;
 
-    //clicking event, puts 'X' or 'O' in box. Switches from 'X' to 'O' on if each turn, plus incrementing the turn counter
+    //Start game function. Puts 'X' or 'O' in box. Switches from 'X' to 'O' on each turn, plus incrementing the turn counter.
     function startGame() {
         $($gameCells).one('click', function() {
             $(this).html(turn);
@@ -29,14 +29,14 @@ $(document).ready(function() {
     scoreBoard();
     startGame();
 
-    //scoreboard function
+    //Scoreboard function. Changes html of score for player who wins or score for tie games.
     function scoreBoard() {
         $('.playerX').html(xWins);
         $('.playerO').html(oWins);
         $('.tie').html(tie);
     }
 
-    //resets clicks on board and resets variables.
+    //Reset Board function. Resets clicks on board and resets variables.
     function resetBoard() {
         $gameCells.removeClass('won');
         $gameCells.html('');
@@ -46,24 +46,24 @@ $(document).ready(function() {
         count = 0;
     }
 
-    //New game button, clears board
+    //Button for new game. Clears board and let's player play new game.
     $('#newGame').click(function() {
         $(this).on();
         resetBoard();
         startGame();
     });
 
-    //resets the score
-    $('#resetScore').click(function(){
-       $(this).on();
-       winner = null;
-       xWins = 0;
-       oWins = 0;
-       tie = 0;
-       scoreBoard();
+    //Button for resetting the score
+    $('#resetScore').click(function() {
+        $(this).on();
+        winner = null;
+        xWins = 0;
+        oWins = 0;
+        tie = 0;
+        scoreBoard();
     });
 
-    // checks to see if there is a possibility of a winner
+    //Check winner function. Checks to see if there is a possibility of a winner or tie and increases score for winner or tie game.
     function checkWinner(player) {
 
         //score keeper
@@ -77,64 +77,65 @@ $(document).ready(function() {
             }
         }
 
+        // checks to see if there is a possibility of a winner or tie.
         if (moves[0] === player && moves[1] === player && moves[2] === player) {
             $('#0, #1, #2').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[3] === player && moves[4] === player && moves[5] === player) {
             $('#3, #4, #5').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[6] === player && moves[7] === player && moves[8] === player) {
             $('#6, #7, #8').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[0] === player && moves[3] === player && moves[6] === player) {
             $('#0, #3, #6').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[1] === player && moves[4] === player && moves[7] === player) {
             $('#1, #4, #7').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[2] === player && moves[5] === player && moves[8] === player) {
             $('#2, #5, #8').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[0] === player && moves[4] === player && moves[8] === player) {
             $('#0, #4, #8').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (moves[2] === player && moves[4] === player && moves[6] === player) {
             $('#2, #4, #6').addClass('won');
-            swal('Player ' + player + ' wins!');
+            swal('Good Job', 'Player ' + player + ' wins!', 'success');
             winner = player;
             score();
             scoreBoard();
             $($gameCells).off('click');
         } else if (count === 9) {
-            swal("Game over!  It's a tie");
+            sweetAlert("Game over!", "It's a tie", "error");
             score();
             scoreBoard();
         }
