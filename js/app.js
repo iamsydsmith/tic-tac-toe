@@ -138,6 +138,7 @@ $(document).ready(function() {
             sweetAlert("Game over!", "It's a tie", "error");
             score();
             scoreBoard();
+            $($gameCells).off('click');
         }
     }
 
