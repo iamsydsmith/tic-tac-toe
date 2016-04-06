@@ -71,16 +71,23 @@ p {
     box-sizing: border-box;
 }
 
-#newGame {
+.buttons {
+    margin: 0 auto;
+
+}
+
+#newGame, #resetScore{
     width: 140px;
     height: 40px;
     border: 2px solid #FF69B4;
     border-radius: 5px;
     background-color: white;
     margin-top: 10px;
+    margin-right: 10px;
     font-size: 150%;
     color: #FF69B4;
     font-family: Open Sans;
+    display: inline-block;
 }
 
 .won {
@@ -88,7 +95,7 @@ p {
     color: #FF69B4;
 }
 
-#newGame:hover {
+#newGame:hover, #resetScore:hover {
     cursor: pointer;
     background-color: #FF69B4;
     color: white;

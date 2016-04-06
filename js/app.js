@@ -53,6 +53,16 @@ $(document).ready(function() {
         startGame();
     });
 
+    //resets the score
+    $('#resetScore').click(function(){
+       $(this).on();
+       winner = null;
+       xWins = 0;
+       oWins = 0;
+       tie = 0;
+       scoreBoard();
+    });
+
     // checks to see if there is a possibility of a winner
     function checkWinner(player) {
 

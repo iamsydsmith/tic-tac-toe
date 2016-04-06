@@ -3,7 +3,7 @@
 
 For project #1, I created a simple game of Tic Tae Toe.
 
-Players alternate placing Xs and Os on the game board until either player has three in a row or all nine squares are filled. Once a player wins, their score increases.
+Players alternate placing Xs and Os on the game board until either player has three in a row or all nine squares are filled. Once a player wins, their score increases. The game allows players to play multiple games and reset the score.
 
 http://iamsydsmith.github.io/tic-tac-toe/
 
