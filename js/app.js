@@ -29,7 +29,7 @@ $(document).ready(function() {
             swal.showInputError("You need to write something!");
             return false
         }
-        swal("Thanks " + inputValue + " & " + inputValueTwo);
+        swal("Let's start, " + inputValue + " & " + inputValueTwo);
         $(".player-one").text(inputValue);
         $(".player-two").text(inputValueTwo);
 
