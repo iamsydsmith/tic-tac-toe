@@ -10,7 +10,7 @@ Once players come to the site, they are asked to input their names. The first pl
 ## Technologies Used
 
   * Languages - HTML5, CSS3, Javascript, jQuery
-  * Design - MockingBird, Google Fonts, SweeTAlert
+  * Design - MockingBird, Google Fonts, SweetAlert
   * Project Planning & User Stories - [Trello](https://trello.com/b/DAYM9Byr/wdi-project-1-tictactoe)
   * Sublime Text 3
 
