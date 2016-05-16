@@ -26,7 +26,7 @@ Once players come to the site, they are asked to input their names. The first pl
 
 ## Wireframe
 
-![Wireframe](https://github.com/iamsydsmith/tic-tac-toe/blob/gh-pages/img/Tic_Tac_Toe_-_wireframe.png)
+![Wireframe](https://github.com/iamsydsmith/tic-tac-toe/blob/master/img/Tic_Tac_Toe_-_wireframe.png)
 
 ## Winning Combination
 
